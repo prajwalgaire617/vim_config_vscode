@@ -1,0 +1,51 @@
+
+    {
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.editor.enablePreview": true,
+        "workbench.editor.enablePreviewFromQuickOpen": true,
+        "[php]": {
+            "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        },
+
+
+
+        "editor.minimap.enabled": false,
+        "window.commandCenter": false,
+        "editor.scrollbar.vertical": "auto",
+        "window.titleBarStyle": "custom",
+        "editor.scrollbar.horizontal": "auto",
+        
+        "apc.activityBar": {
+            "position": "bottom",
+            "hideSettings":true,
+            "size": 28
+        },
+        "apc.electron": {
+            "titleBarStyle": "hiddenInset",
+            "trafficLightPosition": {
+                "x": 12,
+                "y": 10
+            }
+        },
+        "apc.statusBar": {
+            "position": "editor-bottom",
+            "height": 28,
+            "fontSize": 12
+        },
+        
+    
+        "vscode-neovim.compositeKeys": {
+            "jj": {
+                "command": "vscode-neovim.escape",
+            },
+        },
+
+        "extensions.experimental.affinity": {
+            "asvetliakov.vscode-neovim": 1
+        },
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users/prajw/scoop/shims/nvim",
+        "settingsSync.ignoredSettings": [],
+
+
+    }
